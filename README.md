@@ -8,8 +8,8 @@ width = 300
 height = 300
 center = width // 2
 color_1 = (0, 0, 0)
-color_2) = random(r,g,b)
-color_3) = random(r,g,b)
+color_2 = random(r,g,b)
+color_3 = random(r,g,b)
 
 for i in range(100):
     im = Image.new('RGB', (width, width), color_1)
